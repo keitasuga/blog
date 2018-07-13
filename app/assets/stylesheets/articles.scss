@@ -13,6 +13,7 @@
 .col.s12.m4.l8 {
   width: 600px;
   margin: 0 auto;
+  line-height: 20px;
 }
 
 nav .brand-logo {
@@ -39,6 +40,6 @@ nav .brand-logo {
   padding: 0 30px 0;
 }
 
-.card-content.black-text {
-  text-align: 0;
+.card-content.black-text.p {
+  line-height: 0;
 }
