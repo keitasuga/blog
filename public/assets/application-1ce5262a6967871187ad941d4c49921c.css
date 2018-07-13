@@ -1,0 +1,781 @@
+/*.col s12 m4 l8{
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}*/
+/* line 9, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/articles.scss */
+.blog-list {
+  width: 100%;
+  height: 1440px;
+}
+
+/* line 14, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/articles.scss */
+.col.s12.m4.l8 {
+  width: 600px;
+  margin: 0 auto;
+  line-height: 20px;
+}
+
+/* line 20, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/articles.scss */
+nav .brand-logo {
+  padding-left: 30px;
+}
+
+/* line 24, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/articles.scss */
+.new-card {
+  width: 100%;
+}
+
+/* line 28, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/articles.scss */
+.row.col.s12.m6 {
+  width: 600px;
+  margin: 0 auto;
+}
+
+/* line 33, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/articles.scss */
+.card.white {
+  width: 600px;
+  margin: 0 auto;
+  text-align: 0;
+}
+
+/* line 39, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/articles.scss */
+.nav-wrapper {
+  margin-bottom: 10px;
+  padding: 0 30px 0;
+}
+
+/* line 44, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/articles.scss */
+.card-content.black-text.p {
+  line-height: 0;
+}
+/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+/* ==========================================================================
+ * HTML5 display definitions
+ * ========================================================================== */
+/*
+ * Correct `block` display not defined in IE 8/9. */
+/* line 19, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/*
+ * Correct `inline-block` display not defined in IE 8/9. */
+/* line 27, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/*
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices. */
+/* line 34, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/*
+ * Address `[hidden]` styling not present in IE 8/9.
+ * Hide the `template` element in IE, Safari, and Firefox < 22. */
+/* line 43, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* ==========================================================================
+ * Base
+ * ========================================================================== */
+/*
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom. */
+/* line 54, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/*
+ * Remove default margin. */
+/* line 65, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+ * Links
+ * ========================================================================== */
+/*
+ * Remove the gray background color from active links in IE 10. */
+/* line 74, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+a {
+  background: transparent;
+}
+
+/*
+ * Address `outline` inconsistency between Chrome and other browsers. */
+/* line 80, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/*
+ * Improve readability when focused and also mouse hovered in all browsers. */
+/* line 87, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+ * Typography
+ * ========================================================================== */
+/*
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome. */
+/* line 97, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/*
+ * Address styling not present in IE 8/9, Safari 5, and Chrome. */
+/* line 104, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/*
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome. */
+/* line 111, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/*
+ * Address styling not present in Safari 5 and Chrome. */
+/* line 117, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+dfn {
+  font-style: italic;
+}
+
+/*
+ * Address differences between Firefox and other browsers. */
+/* line 123, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/*
+ * Address styling not present in IE 8/9. */
+/* line 131, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+mark {
+  background: yellow;
+  color: black;
+}
+
+/*
+ * Correct font family set oddly in Safari 5 and Chrome. */
+/* line 141, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/*
+ * Improve readability of pre-formatted text in all browsers. */
+/* line 148, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+pre {
+  white-space: pre-wrap;
+}
+
+/*
+ * Set consistent quote types. */
+/* line 154, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/*
+ * Address inconsistent and variable font size in all browsers. */
+/* line 160, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+small {
+  font-size: 80%;
+}
+
+/*
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers. */
+/* line 167, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 174, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 178, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+ * Embedded content
+ * ========================================================================== */
+/*
+ * Remove border when inside `a` element in IE 8/9. */
+/* line 187, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+img {
+  border: 0;
+}
+
+/*
+ * Correct overflow displayed oddly in IE 9. */
+/* line 193, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+ * Figures
+ * ========================================================================== */
+/*
+ * Address margin not present in IE 8/9 and Safari 5. */
+/* line 202, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+ * Forms
+ * ========================================================================== */
+/*
+ * Define consistent border, margin, and padding. */
+/* line 211, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets. */
+/* line 220, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/*
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome. */
+/* line 234, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/*
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet. */
+/* line 247, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/*
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera. */
+/* line 257, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others. */
+/* line 270, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/*
+ * Re-set default cursor for disabled elements. */
+/* line 280, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/*
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10. */
+/* line 288, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/*
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof). */
+/* line 299, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/*
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X. */
+/* line 312, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+ * Remove inner padding and border in Firefox 4+. */
+/* line 319, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/*
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers. */
+/* line 327, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+ * Tables
+ * ========================================================================== */
+/*
+ * Remove most spacing between table cells. */
+/* line 339, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ==========================================================================
+ * CSS SETTING
+ * by Hiroaki WAKATSUKI
+ * Converted 2014/2/16
+ * ========================================================================== */
+/* line 351, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 359, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+img,
+object,
+embed {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 365, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+object,
+embed {
+  height: 100%;
+}
+
+/* line 369, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.left {
+  float: left;
+}
+
+/* line 373, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.right {
+  float: right;
+}
+
+/* line 377, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 380, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+/* line 389, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 393, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 397, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 401, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.text-justify {
+  text-align: justify;
+}
+
+/* line 405, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.hide {
+  display: none;
+}
+
+/* line 409, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 413, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 418, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+textarea {
+  height: auto;
+  min-height: 50px;
+}
+
+/* line 423, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+select {
+  width: 100%;
+}
+
+/* line 427, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+i {
+  font-style: normal;
+}
+
+/* line 431, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.animate {
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+
+/* line 446, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.button {
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.05) 1%, rgba(0, 0, 0, 0.2) 100%);
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.05) 1%, rgba(0, 0, 0, 0.2) 100%);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1%, rgba(0, 0, 0, 0.2) 100%);
+}
+
+/* line 452, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 456, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 462, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 660px;
+  *zoom: 1;
+}
+
+/* line 482, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row .grid-1,
+.row .grid-2,
+.row .grid-3,
+.row .grid-4,
+.row .grid-5,
+.row .grid-6,
+.row .grid-7,
+.row .grid-8,
+.row .grid-9,
+.row .grid-10,
+.row .grid-11,
+.row .grid-12 {
+  float: left;
+  margin-left: 0.9%;
+  margin-right: 0.9%;
+}
+
+/* line 487, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row .grid-1 {
+  width: 6.53333%;
+}
+
+/* line 490, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row .grid-2 {
+  width: 14.86667%;
+}
+
+/* line 493, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row .grid-3 {
+  width: 23.2%;
+}
+
+/* line 496, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row .grid-4 {
+  width: 31.53333%;
+}
+
+/* line 499, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row .grid-5 {
+  width: 39.86667%;
+}
+
+/* line 502, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row .grid-6 {
+  width: 48.2%;
+}
+
+/* line 505, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row .grid-7 {
+  width: 56.53333%;
+}
+
+/* line 508, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row .grid-8 {
+  width: 64.86667%;
+}
+
+/* line 511, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row .grid-9 {
+  width: 73.2%;
+}
+
+/* line 514, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row .grid-10 {
+  width: 81.53333%;
+}
+
+/* line 517, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row .grid-11 {
+  width: 89.86667%;
+}
+
+/* line 520, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row .grid-12 {
+  width: 98.2%;
+}
+
+/* line 524, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+
+/* line 529, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row:after {
+  clear: both;
+}
+
+/* line 534, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row.collapse > .column,
+.row.collapse > .columns {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  float: left;
+}
+
+/* line 541, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row.collapse .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 546, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row .row {
+  width: auto;
+  margin-left: -0.9375em;
+  margin-right: -0.9375em;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: none;
+  *zoom: 1;
+}
+
+/* line 556, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row .row:before, .row .row:after {
+  content: " ";
+  display: table;
+}
+
+/* line 561, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row .row:after {
+  clear: both;
+}
+
+/* line 565, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row .row.collapse {
+  width: auto;
+  margin: 0;
+  max-width: none;
+  *zoom: 1;
+}
+
+/* line 572, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row .row.collapse:before, .row .row.collapse:after {
+  content: " ";
+  display: table;
+}
+
+/* line 577, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+.row .row.collapse:after {
+  clear: both;
+}
+
+@media only screen and (max-width: 40em) {
+  /* line 582, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+  .row {
+    width: 100%;
+    padding: 0 20px !important;
+  }
+
+  /* line 597, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+  .row .grid-1,
+  .row .grid-2,
+  .row .grid-3,
+  .row .grid-4,
+  .row .grid-5,
+  .row .grid-6,
+  .row .grid-7,
+  .row .grid-8,
+  .row .grid-9,
+  .row .grid-10,
+  .row .grid-11,
+  .row .grid-12 {
+    float: none;
+    width: 100% !important;
+    margin: 0 !important;
+    position: static !important;
+  }
+}
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 609, /Users/sugaharakeita/projects/blog/app/assets/stylesheets/style.scss */
+  .row .grid-1,
+  .row .grid-2,
+  .row .grid-3,
+  .row .grid-4 {
+    width: 48.2% !important;
+  }
+}
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
