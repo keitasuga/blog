@@ -1,0 +1,16 @@
+<div class="new-card">
+  <div class="row">
+    <%= form_for @article,url: "/articles/#{@article.id}" do |f|%>
+    <div class="col s12 m6">
+      <div class="card white">
+        <div class="card-content black-text">
+          <%= f.text_area :text %>
+        </div>
+        <div class="card-action">
+          <%= f.submit "編集" %>
+        </div>
+      </div>
+    </div>
+    <% end %>
+  </div>
+</div>
